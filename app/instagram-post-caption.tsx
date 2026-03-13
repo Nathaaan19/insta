@@ -9,7 +9,7 @@ export function InstagramPostCaption({ textColor }: InstagramPostCaptionProps) {
     <View style={styles.caption}>
       <Text style={[styles.captionText, { color: textColor }]}>
         <Text style={styles.bold}>usuario_insta </Text>
-        Uma foto incrível do dia! 🌅✨
+        Uma foto incrível do dia!
       </Text>
       <Text style={styles.timestamp}>há 2 horas</Text>
     </View>

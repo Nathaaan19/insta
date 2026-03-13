@@ -2,7 +2,6 @@ import { Image, StyleSheet, View } from 'react-native';
 import { InstagramPostActions } from './instagram-post-actions';
 import { InstagramPostCaption } from './instagram-post-caption';
 import { InstagramPostHeader } from './instagram-post-header';
-import { InstagramPostStats } from './instagram-post-stats';
 
 interface InstagramPostProps {
   textColor: string;
@@ -21,7 +20,6 @@ export function InstagramPost({ textColor, borderColor, isDark }: InstagramPostP
       />
 
       <InstagramPostActions textColor={textColor} borderColor={borderColor} />
-      <InstagramPostStats textColor={textColor} />
       <InstagramPostCaption textColor={textColor} />
     </View>
   );
